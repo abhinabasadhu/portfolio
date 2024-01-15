@@ -354,11 +354,11 @@ h6 {
   width: 258px;
 }
 .menu {
-	display: flex;
-	justify-content: space-evenly;
-	font-family: "Roboto Mono", monospace;
-	margin-left: 5px;
-	width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 5px;
+  width: 500px;
 }
 
 .post-title {
@@ -437,6 +437,19 @@ h6 {
     height: 180px;
     padding-left: 10px;
     padding-top: 10px;
+  }
+  .nav-wrapper {
+    display: inline-block;
+    overflow: scroll;
+  }
+
+  #skills {
+    display: block;
+    max-width: 280px;
+  }
+
+  .menu {
+    margin-left: 10px;
   }
 
   #preview {
